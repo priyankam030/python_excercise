@@ -1,4 +1,7 @@
-# dictionary is a collection of key-value pairs.
+# dictionary is a collection of key-value pairs
+
+# s = {} is a empty dictionary.
+
  
 marks = {
     "Harry" : 100, 

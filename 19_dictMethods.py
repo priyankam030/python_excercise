@@ -11,14 +11,15 @@ marks.update({"Harry": 99 , "renuka": 100})
 print(marks)
 print(marks.get("Rohan"))
 print(marks["Rohan"])
-
+d = marks.__len__()
+print(d)
 # print(marks.get("Rohan1")) # it will return none.
 # print(marks["Rohan1"]) # key error.
 
 
-marks.clear()
+# marks.clear()
 
-print(marks)
+# print(marks
 
 
 
