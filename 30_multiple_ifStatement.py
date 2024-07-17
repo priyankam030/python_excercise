@@ -17,7 +17,7 @@ elif(a==0):
     print("You are entering a invalid age")
 
 else:
-    print("You age not egible for marriage")
+    print("You age not egible for marriage") 
     
 #end of If statement no:2
 
