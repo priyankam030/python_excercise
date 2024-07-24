@@ -1,8 +1,3 @@
-def func():
-    print("good day")
-
-func()
-################################################
 # function definition
 def avg():
     a = int(input("Enter your a number: "))
@@ -12,7 +7,7 @@ def avg():
     average = (a + b + c)/3
 
     print(average)
-
+   
 avg() # function call
 avg()
 avg()
