@@ -2,8 +2,9 @@
 
 
 def fahrenheit(n):
-    return (n * 9/5) + 32
+    fahrenheit_val = ((n * 9/5) + 32)
+    return fahrenheit_val
 
 n = int(input("Enter temperature (in celsius)  : "))
-
-print(f"The number is in {fahrenheit (n)} degree celsius")
+temp = fahrenheit (n)
+print(f"The number is in {temp} degree celsius")
