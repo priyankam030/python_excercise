@@ -17,6 +17,6 @@ def factorial(n):
     fact = (n * factorial(n-1))
     return fact
 
-n = int(input("Enter a number: "))
+number = int(input("Enter a number: "))
 
-print(f"The factorial of this number is {factorial(n)}")
+print(f"The factorial of this number is {factorial(number)}")
