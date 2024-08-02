@@ -1,3 +1,8 @@
+"""
+Write a program to mine a log file find out whether it contains 'python'
+
+"""
+
 with open("text.txt", "r") as file:
     content = file.read()
 

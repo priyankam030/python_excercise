@@ -1,3 +1,7 @@
+'''
+Write a python program to rename a file to 'old.txt'
+'''
+
 import os
 
 with open("old.txt", "r") as file:

@@ -1,3 +1,6 @@
+'''
+Write a program to make a copy of a text file 'text.txt' 
+'''
 with open ("text.txt", "r") as file:
     Content = file.read()
 print(Content)
