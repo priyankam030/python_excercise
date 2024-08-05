@@ -1,18 +1,24 @@
 '''
-Create a class 'Employee' and add the salary and increment it to do
-'''
-from random import randint
+Create a class 'Employee' and add the salary and increment properties to
+it.
 
+Write a method 'salaryAfterIncrement' method with a @property decorator 
+with a setter which change the value of increment based on the salary.
+'''
 
 class Employee:
-    salary = 1200000
-    def salari(self):
-        print(f"The salary is: {self.salary}.")
+    salary = 1200
+    increment = 20
+    @property
+    def salaryAfterIncrement(self):
+        return(self.salary + self.salary * (self.increment/100))
 
-    def increment(self):
-        print(f"Increment is: {randint(10, 20)}%")
+    @salaryAfterIncrement.setter
+    def salaryIncrement(self, salary):
+        self.increment = ((salary/self.salary) -1)*100
 
 priya = Employee()
+print(priya.salaryAfterIncrement)
+priya.salaryIncrement = 1440
 
-priya.salari()
-priya.increment()
+print(priya.increment)
